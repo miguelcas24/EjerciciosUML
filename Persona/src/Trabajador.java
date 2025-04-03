@@ -7,5 +7,15 @@ public class Trabajador extends Persona{
 		return sueldo;
 	}
 	
+	
+	
+	public Trabajador(int id, String nombre, String apellido, double sueldo) {
+		super(id, nombre, apellido);
+		this.sueldo = sueldo;
+	}
+
+
+
+	Persona p = new Trabajador(1, "Pepe", "Garcia", 25 );
 
 }

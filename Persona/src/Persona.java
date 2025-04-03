@@ -11,6 +11,11 @@ public class Persona {
 	public String getNombre() {
 		return nombre;
 	}
+	public Persona(int id, String nombre, String apellido) {
+		this.id = id;
+		this.nombre = nombre;
+		this.apellido = apellido;
+	}
 	
 	
 	
